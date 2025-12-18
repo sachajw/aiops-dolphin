@@ -1,0 +1,14 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(huggingface-cli download:*)",
+      "Bash(pip install:*)",
+      "Bash(python -m huggingface_hub.commands.huggingface_cli:*)",
+      "Bash(python3:*)",
+      "Bash(/opt/homebrew/bin/python3.11:*)",
+      "Bash(/opt/homebrew/bin/pip3.11 install:*)",
+      "Bash(cat:*)",
+      "Bash(ls:*)"
+    ]
+  }
+}
